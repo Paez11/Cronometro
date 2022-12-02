@@ -1,0 +1,123 @@
+.fondo{
+    -fx-background-color: #EDF7FA;
+}
+
+.Black{
+    -fx-background-color: linear-gradient(to bottom, #212529, rgb(0, 0, 0));
+}
+
+.digit{
+    -fx-text-fill: #50D890;
+}
+
+.colorTransparent{
+    -fx-border-color: transparent;
+}
+
+.text-field{
+    -fx-border-radius: 20;
+    -fx-border-width: 0 0 0 0;
+}
+
+.selectButton{
+    -fx-background-color: transparent;
+    -fx-border-color: #9b9b9b;
+    -fx-text-fill: white;
+    -fx-font-size: 12 pt;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-border-radius: 5;
+}
+
+.selectButton:hover{
+    -fx-background-color: rgba(122, 122, 122, 0.26);
+}
+
+.deleteButton{
+    -fx-background-color: #d00000;
+    -fx-text-fill: white;
+    -fx-font-size: 12 pt;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-border-radius: 5;
+}
+
+.deleteButton:hover{
+    -fx-background-color: rgba(182, 182, 182, 0.26);
+}
+
+.buttonR{
+    -fx-border-radius: 50;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.buttonR:hover{
+    -fx-background-color: rgba(176, 176, 176, 0.24);
+}
+.buttonR:pressed{
+    -fx-background-color: #50D890;
+}
+
+.scroll-pane{
+    -fx-background-color: #e6e7f3;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+.increment-button, .decrement-button{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb{
+    --fx-background-radius: 0em;
+}
+
+.table-view{
+    -fx-background-color: white;
+    -fx-text-fill: #000000;
+    -fx-border-color: #000000;
+    -fx-border-width: 0 0 0 0px;
+}
+.table-view .row-header-background .filler {
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: #5F6CAF;
+    -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header{
+    -fx-text-fill: white;
+}
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-text-fill: #000000;
+
+}
+
+.table-row-cell:odd{
+    -fx-border-width: 3px 0 0 0;
+    -fx-text-fill: #000000;
+}
+
+.table-row-cell:even{
+    -fx-border-width: 3px 0 0 0;
+    -fx-text-fill: #000000;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
