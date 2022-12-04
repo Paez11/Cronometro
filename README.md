@@ -1,4 +1,4 @@
-# PTW (Post To the World)
+# Chronometer
 This proyect is a simple chronometer using Threads in java. You can also mark time and it will be upload to a data base to see all your history of marks.
 
 # Proyect objectives
